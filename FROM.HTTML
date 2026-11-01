@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <H5>REGESTRAION FROM</H5>
+    <form action="/SUBMIT.PHP">
+        <div>
+            <label for="name">NAME</label>
+            <input id="name" type="text" placeholder="Enter Name">
+        </div>
+        <div>
+            <label for="name">FATHER NAME</label>
+            <input id="name" type="text" placeholder="Enter Father Name">
+        </div>
+        <div>
+            <label for="name">D.O.B</label>
+            <input id="name" type="date" placeholder="Enter D.O.B">
+        </div>
+        <DIv>
+            <Label>GENDER:</Label> 
+            <LAbel>MALE</LAbel>
+            <iNput type="radio" id="MALE" name="GENDER"></iNput>
+            <LAbel for="FEMALE"> FEMALE</LAbel>
+            <iNput type="radio" id="FEEMALE" name="GENDER"></iNput>
+        </DIv>
+        <DIv>
+            <LAbel for="PH">CONACT NO</LAbel>
+            <Input id="PH" type="tel"></Input>
+        </DIv>
+        <DIV>
+            <Label for="EMAIL"> EMAIL ID</Label>
+            <input id="EMAIL" type="email">
+        </DIV>
+        <Div>
+            <Label for="SELECT"> SELECT SUBJECT</Label>
+            <SElect name=" SUBJECT">
+                <option value="">CHOOSE SUBJECT</option>
+                <OPTion value="B-TECH">B-TECH</OPTion>
+                <OPTion value="BCA">BCA</OPTion>
+                <OPTion value="BSC">BSC</OPTion>
+                <OPTion value="BHM">BHM</OPTion>
+                <OPTion value="BMLT">BMLT</OPTion>
+                <OPTion value="B.A">B.A</OPTion>
+            </SElect>
+        </Div>
+        <Div>
+            <Label for="PIC">UPLOAD YOUR PIC</Label>
+            <Input id="PIC" type="file" placeholder="UPLOAD FILE"></Input>
+        </Div>
+        <DIV>
+            <LAbel for="SUBMIT"></LAbel>
+            <INput type="submit" id="SUBMIT" name="SUBMIT"></INput>
+        </DIV>
+
+
+    </form>
+</body>
+
+</html>
